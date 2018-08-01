@@ -13,6 +13,7 @@ tested on Supreme Court ones)
 - [ ] limit the justices votes
 - [ ] scrape individual cases
 - [ ] scrape page information from each case (this will vary)
+- [ ] Convert this repo into a [Jupyter Notebook](http://jupyter.org)
 
 ## Installation
 
