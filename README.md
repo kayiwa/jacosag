@@ -3,6 +3,17 @@
 Scrape all the tables from a Wikipedia article into a folder of CSV files (only
 tested on Supreme Court ones)
 
+## Status of this Repo
+
+### Components
+
+- [x] write a test scraper to see if possible
+- [ ] scrape all the [term
+  opinions](https://en.wikipedia.org/wiki/Lists_of_United_States_Supreme_Court_cases)
+- [ ] limit the justices votes
+- [ ] scrape individual cases
+- [ ] scrape page information from each case (this will vary)
+
 ## Installation
 
 This will be a [Python 3.7][python] module that depends on the [Beautiful Soup][beautiful-soup] and [requests][requests] packages.
