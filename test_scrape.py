@@ -16,8 +16,8 @@ def scrape(url, output_name):
     """
 
     # Read tables from Wikipedia article into list of HTML strings
-    resp = requests.get(url)
-    soup = BeautifulSoup(resp.content, 'lxml')
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'lxml')
     table_classes = {"class": ["sortable", "plainrowheaders"]}
     wikitables = soup.findAll("table", table_classes)
 
